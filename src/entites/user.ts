@@ -1,12 +1,12 @@
-type UserProps = {
-  id?: string;
+export type UserProps = {
+  id?: number;
   name: string;
   email: string;
   age: number;
 };
 
 export class User {
-  public id?: string;
+  public id?: number;
   public name: string;
   public email: string;
   public age: number;
