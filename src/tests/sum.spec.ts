@@ -1,7 +1,10 @@
-import { expect, test } from "vitest";
+import { describe, expect, it } from "vitest";
 import { sum } from "../components/sum";
 
-test("adds 1 + 2 to equal 3", () => {
+describe("Sum Function", () => {
   const result = sum(1, 2);
-  expect(result).toBe(3);
+
+  it("shoud be able to sum 1 + 2", () => {
+    expect(result).toBe(3);
+  });
 });

@@ -14,6 +14,8 @@ export class UsersRepository {
     });
 
     this.users.push(user);
+
+    return user;
   }
 
   findMany() {
